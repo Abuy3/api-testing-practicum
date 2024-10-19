@@ -16,7 +16,7 @@ app.delete('/api/items/:id', controller.deleteItem);
 
 //Start server
 app.listen(port, () => {
-    console.log('API is Running on hhtp:/localhost: ${port}');
+    console.log(`PI is Running on http://localhost: ${port}`);
 
 });
 

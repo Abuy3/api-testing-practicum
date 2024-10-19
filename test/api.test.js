@@ -63,7 +63,7 @@ describe('API tesing', () => {
                 expect(res.body).to.have.property('id', itemIdToUpdate);
                 expect(res.body).to.have.property('name', 'Updated Item 2');
 
-                // Verify the item is actually updated
+               
                 request(app)
                     .get('/api/items')
                     .end((err, getRes) => {
